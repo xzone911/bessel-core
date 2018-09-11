@@ -50,7 +50,6 @@ public:
 
     bool isOverTarget (std::uint64_t avg, std::uint64_t peak);
 
-    //  TODO make this return the values in a struct.
     struct Stats
     {
         Stats();

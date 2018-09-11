@@ -19,7 +19,7 @@ Configs:
 
 ##Discussion
 
-RocksDBQuickFactory is intended to provide a testbed for comparing potential rocksdb performance with the existing recommended configuration in skywelld.cfg. Through various executions and profiling some conclusions are presented below.
+RocksDBQuickFactory is intended to provide a testbed for comparing a potential rocksdb performance with the existing recommended configuration in skywelld.cfg. Through various executions and profiling some conclusions are presented below.
 
 * If the write ahead log is enabled, insert speed soon clogs up under load. The BatchWriter class intends to stop this from blocking the main threads by queuing up writes and running them in a separate thread. However, rocksdb already has separate threads dedicated to flushing the memtable to disk and the memtable is itself an in-memory queue. The result is two queues with a guarantee of durability in between. However if the memtable was used as the sole queue and the rocksdb::Flush() call was manually triggered at opportune moments, possibly just after ledger close, then that would provide similar, but more predictable guarantees. It would also remove an unneeded thread and unnecessary memory usage. An alternative point of view is that because there will always be many other skywelld instances running there is no need for such guarantees. The nodes will always be available from another peer.
 
