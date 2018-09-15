@@ -10,7 +10,7 @@ Bessel Chain has three basic elements: account, assets and transaction. Everyone
 ## Architecture ##
 The born of Bessel Chain is to solve the problem of current blockchain technology. Comparing to Bitcoin, Bessel Chain integrates smart contract originally and comparing to Ethereum, the underlying blockchain adopts a more reasonable multi-layer method, which separates the execution of the smart contract from the transactions; this would avoid the problem of contracts affecting the whole system and allowing more flexible implementation of smart contracts.
 
-![](images/architecture.png)
+![](images/bessel_chain_architecture.png)
 
 
 ## Start ##
