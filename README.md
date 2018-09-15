@@ -1,5 +1,4 @@
 # Bessel Chain
-### POW + PBFT
 
 ## Bessel Chain is a next generation, quantum-resistant distributed ledger technology utilizing POW (Proof-Of-Work) and pBFT (Practical Byzantine Fault Tolerance) consensus algorithm
 
