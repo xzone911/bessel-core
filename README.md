@@ -8,7 +8,7 @@ Bessel Chain is a peer-to-peer decentralized network system that built upon a di
 Bessel Chain has three basic elements: account, assets and transaction. Everyone can have accounts and hold resources, with this condition people can make assets transaction, and Bessel Chain ensures all transaction effect. From assets transaction, Bessel Chain concludes payment, book offer, assets finder, assets convert, and relation settlement transaction. With these transaction types, people can make assets flow freely.
 
 ## Architecture ##
-#### The born of Bessel Chain is to solve the problem of current blockchain technology. Comparing to Bitcoin, Bessel Chain integrates smart contract originally and comparing to Ethereum, the underlying blockchain adopts a more reasonable multi-layer method, which separates the execution of the smart contract from the transactions; this would avoid the problem of contracts affecting the whole system and allowing more flexible implementation of smart contracts.
+The born of Bessel Chain is to solve the problem of current blockchain technology. Comparing to Bitcoin, Bessel Chain integrates smart contract originally and comparing to Ethereum, the underlying blockchain adopts a more reasonable multi-layer method, which separates the execution of the smart contract from the transactions; this would avoid the problem of contracts affecting the whole system and allowing more flexible implementation of smart contracts.
 
 ![](images/architecture.png)
 
