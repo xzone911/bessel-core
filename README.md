@@ -1,5 +1,7 @@
-![](images/jingtum.png)
-##
+# Bessel Chain
+### POW + PBFT
+
+## Bessel Chain is a next generation, quantum-resistant distributed ledger technology utilizing POW (Proof-Of-Work) and pBFT (Practical Byzantine Fault Tolerance) consensus algorithm
 
 Bessel Chain is a peer-to-peer decentralized network system that built upon a distributed Internet protocol. It enables secure, instant and nearly free financial transactions of tokens across the Internet. The tokens can represent currency, commodity or any other unit of value such as frequent flier miles or gift coupons. It provides real-time assets settlement solution that is the mirror of real world.
 
